@@ -13,7 +13,7 @@
 }
 
 .box1{
-   
+   line-height: 15px;
     height: auto; 
     margin: 30px;
     font-size: 15px;
@@ -32,10 +32,10 @@
 }
 
 .box3{
-
+line-height: 15px;
     height: auto; 
     margin: 30px;
-    font-size: 18px;
+    font-size: 15px;
     text-decoration: #0d8083 underline;
     cursor: pointer; 
  
@@ -67,29 +67,31 @@
     color: rgb(151, 150, 150);
 }
 
-.container3 h2 {
+.box4 h2 {
 
     padding: 5px 10px 5px 11px;
     display: block;
     float: left;
+    line-height: 1;
     text-decoration: none;
     background-color: rgb(0, 0, 0);
-    margin: 10px;
-    border-radius: 10px;
+    margin: 0px 0px 16px;
+    border-radius: 0.375rem;
     cursor: pointer;
     color: white;
-    font-size: 20px;
-    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    font-family: Fjalla One,Arial Narrow,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 }
 
-.container3{
+.main3{
   
-    display: flex;
-    justify-content: space-between;
     padding:  30px; 
 }
 
-.container3 hr{
+.for{
+    border-top: 4px solid rgb(0, 0, 0) ;
+}
+.main3 hr{
 
     width: 294px;
 }
@@ -104,17 +106,17 @@ display:inline-block;
 
 } */
 
-.container3 h5{
+.main3 h5{
     display: inline-block;
     color: rgb(117, 117, 117);
 }
 
-.container3 h4:hover{
+.main3 h4:hover{
     text-decoration: underline #02bb9b;
     
 }
 
-.container3 h6:hover{
+.main3 h6:hover{
     color: rgb(99, 99, 99);
 }
 
@@ -122,5 +124,40 @@ display:inline-block;
     margin-left: 390px;
     
 }
-
-
+.colom{
+    margin-left: -55px;
+}
+.khan img{
+    height: 310px;
+    border-radius: 3px ;
+}
+.khan h1{
+    font-size: 1.77rem;
+    font-family: NafeesNaksh,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+.khan h1:hover {
+    text-decoration: underline #02bb9b;
+}
+.khan a{
+    font-size: 1.5rem;
+    letter-spacing: 1;
+    padding: 5px 10px 5px 11px;
+    display: block;
+    float: left;
+    line-height: 1;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    margin: 0px 0px 16px;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    color: white;
+   
+    font-family: Fjalla One,Arial Narrow,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+.recommend{
+    border-color: black;
+    border-radius: 0.375rem;
+}
+.recommend img{
+    height: 100px;
+}
